@@ -7,7 +7,8 @@ h1 {
     font-weight: bolder;
     font-size: 2em;
 }
-h2{
+
+h2 {
     font-size: 600;
 }
 
@@ -42,12 +43,14 @@ h2{
     color: white;
     font-weight: 700;
 }
-.top-banner{
+
+.top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
 }
-.dream-big{
+
+.dream-big {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -55,12 +58,14 @@ h2{
     text-align: justify;
 
 }
-.experience-area{
+
+.experience-area {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
 }
-.experience-item{
+
+.experience-item {
     box-shadow: 10px 10px 50px gray;
     width: 40%;
     padding-left: 1%;
@@ -69,11 +74,18 @@ h2{
     margin-right: 3%;
     text-align: justify;
     border-radius: 10px;
-    
+
 }
-#left{
-    border-left:8px solid red;
+
+#left {
+    border-left: 8px solid tomato;
 }
-#right{
+
+#right {
     border-left: 8px solid blue;
+}
+
+footer p {
+    text-align: center;
+    color: gray;
 }
